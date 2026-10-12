@@ -1,0 +1,45 @@
+# graphicwheeler
+
+> Official one-page portfolio of graphicwheeler, also known as Wheelz_TTV: a graphic designer, gamer, streamer on hiatus, and proud girl dad based in Sartell, Minnesota. Local roots in Central Minnesota; work and content for a worldwide audience.
+
+Canonical website: https://graphicwheeler.com/
+
+The public website is a static, single-page site. Its sections use anchors, not separate page routes. There is no login or private content. The factual summary below describes the owner, not an agency or storefront.
+
+## Website sections
+
+- [Video series](https://graphicwheeler.com/#work): What If? and Lost In Space, with featured YouTube videos and links to the complete playlists.
+- [About](https://graphicwheeler.com/#about): Minnesota-based designer, gamer, husband, girl dad, and Star Trek fan.
+- [Profiles and resume](https://graphicwheeler.com/#elsewhere): Design portfolio, streaming profile, viewing activity, and resume.
+- [Contact on socials or in game](https://graphicwheeler.com/#contact): Public social profiles, Steam, and the Xbox gamertag WheelzTTV.
+
+## Design and current work
+
+- [Behance portfolio](https://www.behance.net/graphicwheeler): Public graphic design work.
+- [Resume](https://www.behance.net/graphicwheeler/resume): Resume maintained by the owner; refer to the linked page for its latest state.
+- [D.J.V. Label & Packaging](https://djvlabels.com/): The owner's current employer, where he works as Head Graphic Designer.
+
+## Video series
+
+- [What If?](https://www.youtube.com/playlist?list=PL9jTPSyiIfPTc2CXpsMb2s0_LAmaAwqvZ): Short AI-created videos exploring imaginative what-if scenarios.
+- [Lost In Space](https://www.youtube.com/playlist?list=PL9jTPSyiIfPQdtMoBK7diMYuNYPYCoyGh): A short AI-created space-themed video series.
+- [YouTube channel](https://www.youtube.com/channel/UC6Tos_FjcefCbZhcc0uveiQ): Public video channel.
+
+## Social, streaming, and gaming profiles
+
+- [Instagram](https://www.instagram.com/wheelz_ttv): @wheelz_ttv
+- [X](https://x.com/graphicwheeler): @graphicwheeler
+- [Facebook](https://www.facebook.com/graphicwheelerDOTcom): graphicwheelerDOTcom
+- [LinkedIn](https://www.linkedin.com/in/graphicwheeler/): Professional profile.
+- [Twitch](https://www.twitch.tv/wheelz_ttv): Wheelz_TTV; streaming is currently on hiatus.
+- [Steam](https://steamcommunity.com/id/wheelzttv/): wheelzttv
+- Xbox gamertag: WheelzTTV. No public Xbox profile URL is provided.
+- [Trakt](https://app.trakt.tv/profile/graphicwheeler): Public TV and movie tracking.
+
+## Optional support and discovery
+
+- [PayPal tip jar](https://www.paypal.com/paypalme/wheelzttv): Optional support, not a product checkout.
+- [Sitemap](https://graphicwheeler.com/sitemap.xml): The single canonical page.
+- [Robots rules](https://graphicwheeler.com/robots.txt): All compliant crawlers are allowed.
+
+This file is an optional discovery guide. It is not an access-control mechanism or a guarantee that search engines or AI systems will index the site.

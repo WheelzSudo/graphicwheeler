@@ -1,160 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Graphic Wheeler — graphic designer, gamer and creator.">
-<title>Graphic Wheeler | Designer • Gamer • Creator</title>
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&display=swap');
-:root{--red:#e50914;--black:#070707;--dark:#101010;--gray:#8c8c8c;--line:#262626;--white:#f5f5f5}
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{background:var(--black);color:var(--white);font-family:Inter,Arial,sans-serif}
-a{color:inherit;text-decoration:none}
-.wrap{width:min(1100px,92%);margin:auto}
-.top{height:3px;background:var(--red)}
-header{height:72px;border-bottom:1px solid var(--line);background:rgba(7,7,7,.94);backdrop-filter:blur(10px);position:sticky;top:0;z-index:10}
-.nav{height:100%;display:flex;align-items:center;justify-content:space-between}
-.brand{font:900 31px/1 "Barlow Condensed";letter-spacing:.03em;text-transform:uppercase}
-.brand span{color:var(--red)}
-.links{display:flex;gap:28px}
-.links a{font:700 13px "Barlow Condensed";letter-spacing:.1em;text-transform:uppercase;color:#aaa}
-.links a:hover{color:#fff}
-.hero{padding:105px 0 90px;position:relative;overflow:hidden}
-.hero:after{content:"";position:absolute;width:600px;height:600px;right:-300px;top:-220px;background:radial-gradient(circle,rgba(229,9,20,.18),transparent 65%);pointer-events:none}
-.kicker{font:800 13px "Barlow Condensed";letter-spacing:.18em;text-transform:uppercase;color:var(--red);margin-bottom:14px}
-h1{font:900 clamp(70px,11vw,130px)/.78 "Barlow Condensed";text-transform:uppercase;letter-spacing:-.02em}
-h1 span{color:transparent;-webkit-text-stroke:1px #777}
-.hero p{max-width:620px;color:#999;line-height:1.7;margin-top:28px;font-size:15px}
-.buttons{display:flex;gap:10px;margin-top:28px;flex-wrap:wrap}
-.btn{display:inline-block;padding:13px 19px;background:var(--red);font:800 14px "Barlow Condensed";letter-spacing:.08em;text-transform:uppercase}
-.btn.secondary{background:#141414;border:1px solid #333}
-.btn:hover{filter:brightness(1.15)}
-.section{padding:68px 0;border-top:1px solid #1d1d1d}
-.heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:25px;gap:30px}
-.heading h2{font:900 57px/.85 "Barlow Condensed";text-transform:uppercase}
-.heading p{max-width:420px;color:#777;font-size:13px;line-height:1.6}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.card{background:var(--dark);border:1px solid var(--line);padding:25px;min-height:185px;position:relative}
-.card:before{content:"";position:absolute;top:0;left:0;width:38px;height:3px;background:var(--red)}
-.card h3{font:900 31px "Barlow Condensed";text-transform:uppercase;margin-top:17px}
-.card p{color:#777;font-size:13px;line-height:1.6;margin-top:8px}
-.card a{display:inline-block;color:var(--red);font:700 12px "Barlow Condensed";letter-spacing:.1em;text-transform:uppercase;margin-top:18px}
-.portfolio{display:grid;grid-template-columns:1.5fr .8fr;gap:12px}
-.panel{background:#0e0e0e;border:1px solid var(--line);padding:30px;min-height:245px}
-.panel h3{font:900 45px/.9 "Barlow Condensed";text-transform:uppercase}
-.panel p{color:#888;line-height:1.65;font-size:14px;margin-top:13px}
-.panel .btn{margin-top:22px}
-.socials{display:flex;gap:8px;flex-wrap:wrap}
-.social{border:1px solid #292929;background:#111;padding:12px 17px;font:800 12px "Barlow Condensed";letter-spacing:.08em;text-transform:uppercase;color:#aaa}
-.social:hover{border-color:var(--red);color:#fff}
-footer{border-top:1px solid var(--line);padding:35px 0;color:#666;font-size:12px}
-.footer{display:flex;justify-content:space-between;gap:20px}
-@media(max-width:750px){
- .links{gap:14px}.links a:nth-child(n+4){display:none}
- .hero{padding:78px 0 65px}
- .cards,.portfolio{grid-template-columns:1fr}
- .heading{display:block}.heading p{margin-top:12px}
- .heading h2{font-size:48px}
- .footer{display:block}.footer p{margin-top:8px}
-}
-</style>
-</head>
-<body>
-<div class="top"></div>
-<header>
-  <div class="wrap nav">
-    <a class="brand" href="#top">Graphic<span>Wheeler</span></a>
-    <nav class="links">
-      <a href="#about">About</a>
-      <a href="#design">Design</a>
-      <a href="#gaming">Gaming</a>
-      <a href="#content">Content</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </div>
-</header>
-
-<main id="top">
-<section class="hero">
- <div class="wrap">
-  <div class="kicker">Graphic Wheeler</div>
-  <h1>DESIGNER<br><span>GAMER</span><br>CREATOR</h1>
-  <p>Graphic designer, gamer and creator. Explore my design work, follow my gaming streams and check out the creative projects I’m working on.</p>
-  <div class="buttons">
-   <a class="btn" href="https://www.behance.net/graphicwheeler" target="_blank" rel="noopener">View My Designs</a>
-   <a class="btn secondary" href="https://www.twitch.tv/wheelz_ttv" target="_blank" rel="noopener">Wheelz_TTV on Twitch</a>
-  </div>
- </div>
-</section>
-
-<section class="section" id="about">
- <div class="wrap">
-  <div class="heading">
-   <h2>About</h2>
-   <p>Graphic Wheeler is the main creative identity. Wheelz_TTV is the gaming and streaming side.</p>
-  </div>
-  <div class="cards">
-   <div class="card"><h3>Design</h3><p>Graphic design work and creative projects.</p><a href="https://www.behance.net/graphicwheeler" target="_blank" rel="noopener">Behance →</a></div>
-   <div class="card"><h3>Gaming</h3><p>Gaming and live streaming under the Wheelz_TTV name.</p><a href="https://www.twitch.tv/wheelz_ttv" target="_blank" rel="noopener">Twitch →</a></div>
-   <div class="card"><h3>Content</h3><p>Creative video series including What If? and Lost In Space.</p><a href="https://www.youtube.com/channel/UC6Tos_FjcefCbZhcc0uveiQ" target="_blank" rel="noopener">YouTube →</a></div>
-  </div>
- </div>
-</section>
-
-<section class="section" id="design">
- <div class="wrap">
-  <div class="heading"><h2>Design</h2><p>My design portfolio and professional work live on Behance.</p></div>
-  <div class="portfolio">
-   <div class="panel"><h3>Graphic<br>Design</h3><p>See the full Graphic Wheeler portfolio, projects and creative work.</p><a class="btn" href="https://www.behance.net/graphicwheeler" target="_blank" rel="noopener">Open Behance</a></div>
-   <div class="panel"><h3>Resume</h3><p>View my professional experience and background.</p><a class="btn secondary" href="https://www.behance.net/graphicwheeler/resume" target="_blank" rel="noopener">View Resume</a></div>
-  </div>
- </div>
-</section>
-
-<section class="section" id="gaming">
- <div class="wrap">
-  <div class="heading"><h2>Gaming</h2><p>Gaming, streaming and everything Wheelz_TTV.</p></div>
-  <div class="panel">
-   <h3>Wheelz_TTV</h3>
-   <p>Catch me live on Twitch and follow along with the gaming side of Graphic Wheeler.</p>
-   <a class="btn" href="https://www.twitch.tv/wheelz_ttv" target="_blank" rel="noopener">Watch on Twitch</a>
-  </div>
- </div>
-</section>
-
-<section class="section" id="content">
- <div class="wrap">
-  <div class="heading"><h2>Content</h2><p>Explore the video projects already featured on the original site.</p></div>
-  <div class="cards">
-   <div class="card"><h3>What If?</h3><p>A daily creative series exploring strange possibilities.</p><a href="https://www.youtube.com/watch?v=EHadApk6o-Q&list=PL9jTPSyiIfPTc2CXpsMb2s0_LAmaAwqvZ" target="_blank" rel="noopener">Watch Series →</a></div>
-   <div class="card"><h3>Lost In Space</h3><p>A creative video series from Graphic Wheeler.</p><a href="https://www.youtube.com/playlist?list=PL9jTPSyiIfPQdtMoBK7diMYuNYPYCoyGh" target="_blank" rel="noopener">Watch Series →</a></div>
-   <div class="card"><h3>YouTube</h3><p>See the rest of my video content and projects.</p><a href="https://www.youtube.com/channel/UC6Tos_FjcefCbZhcc0uveiQ" target="_blank" rel="noopener">Visit YouTube →</a></div>
-  </div>
- </div>
-</section>
-
-<section class="section" id="contact">
- <div class="wrap">
-  <div class="heading"><h2>Connect</h2><p>Find Graphic Wheeler and Wheelz_TTV around the web.</p></div>
-  <div class="socials">
-   <a class="social" href="https://www.twitch.tv/wheelz_ttv" target="_blank" rel="noopener">Twitch</a>
-   <a class="social" href="https://www.youtube.com/channel/UC6Tos_FjcefCbZhcc0uveiQ" target="_blank" rel="noopener">YouTube</a>
-   <a class="social" href="https://instagram.com/wheelz_ttv" target="_blank" rel="noopener">Instagram</a>
-   <a class="social" href="https://www.behance.net/graphicwheeler" target="_blank" rel="noopener">Behance</a>
-   <a class="social" href="https://www.linkedin.com/in/graphicwheeler" target="_blank" rel="noopener">LinkedIn</a>
-   <a class="social" href="mailto:graphicwheeler@gmail.com?subject=Graphic%20Wheeler">Email</a>
-  </div>
- </div>
-</section>
-</main>
-
-<footer>
- <div class="wrap footer">
-  <div>© 2026 Graphic Wheeler</div>
-  <p>Graphic Wheeler • Wheelz_TTV</p>
- </div>
-</footer>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#111110" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>graphicwheeler — Graphic Designer &amp; Gaming Creator in Sartell, MN</title>
+    <meta name="description" content="Meet graphicwheeler / Wheelz_TTV: graphic designer, gamer, streamer, and proud girl dad in Sartell, Minnesota. Explore design, video series, and more." />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <link rel="sitemap" type="application/xml" href="https://graphicwheeler.com/sitemap.xml" />
+    <link rel="alternate" type="text/plain" title="AI-readable site guide" href="https://graphicwheeler.com/llms.txt" />
+    <meta property="og:title" content="graphicwheeler — Design, gaming &amp; more" />
+    <meta property="og:description" content="Graphic designer, gamer, streamer, and proud girl dad from Sartell, Minnesota. Explore the work and video series." />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="graphicwheeler" />
+    <meta property="og:image" content="https://graphicwheeler.com/social-card.jpg" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="graphicwheeler — Make your mark. Design, gaming, and more from Sartell, Minnesota." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="graphicwheeler — Design, gaming &amp; more" />
+    <meta name="twitter:description" content="Graphic designer, gamer, streamer, and proud girl dad from Sartell, Minnesota. Explore the work and video series." />
+    <meta name="twitter:image" content="https://graphicwheeler.com/social-card.jpg" />
+    <meta name="twitter:image:alt" content="graphicwheeler — Make your mark. Design, gaming, and more from Sartell, Minnesota." />
+    <meta name="twitter:site" content="@graphicwheeler" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://www.youtube-nocookie.com">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "graphicwheeler",
+        "url": "https://graphicwheeler.com/",
+        "alternateName": "Wheelz_TTV",
+        "description": "Graphic designer, gamer, streamer, and proud girl dad in Sartell, Minnesota.",
+        "jobTitle": "Head Graphic Designer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "D.J.V. Label & Packaging",
+          "url": "https://djvlabels.com/"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Sartell",
+          "addressRegion": "Minnesota",
+          "addressCountry": "US"
+        },
+        "sameAs": [
+          "https://www.behance.net/graphicwheeler",
+          "https://www.twitch.tv/wheelz_ttv",
+          "https://app.trakt.tv/profile/graphicwheeler",
+          "https://www.instagram.com/wheelz_ttv",
+          "https://x.com/graphicwheeler",
+          "https://www.facebook.com/graphicwheelerDOTcom",
+          "https://www.linkedin.com/in/graphicwheeler/",
+          "https://www.youtube.com/channel/UC6Tos_FjcefCbZhcc0uveiQ",
+          "https://steamcommunity.com/id/wheelzttv/"
+        ]
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-nXvap7b_.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BbUuwz3u.css">
+      <link rel="canonical" href="https://graphicwheeler.com/">
+    <meta property="og:url" content="https://graphicwheeler.com/">
+  </head>
+  <body>
+    <div id="root"><div class="site-shell" id="top"><header class="topbar"><a class="brand" href="#top" aria-label="graphicwheeler home" data-testid="link-home"><span class="brand-mark" aria-hidden="true">W</span><span class="brand-name">graphicwheeler</span></a><nav class="nav-links" aria-label="Main navigation"><a href="#work" data-testid="link-work">Work</a><a href="#about" data-testid="link-about">About</a><a href="#elsewhere" data-testid="link-elsewhere">Elsewhere</a></nav><div class="nav-status" aria-label="Streaming is on hiatus" data-testid="status-stream-hiatus"><span class="status-dot" aria-hidden="true"></span>Stream hiatus</div></header><main><section class="hero" aria-labelledby="hero-title"><div class="hero-grid" aria-hidden="true"></div><div class="starfield" aria-hidden="true"></div><svg class="orbit-art" aria-hidden="true" viewBox="0 0 600 600" focusable="false"><circle cx="300" cy="300" r="120" class="orbit-planet"></circle><ellipse cx="300" cy="300" rx="250" ry="78" class="orbit-ring" transform="rotate(-18 300 300)"></ellipse><ellipse cx="300" cy="300" rx="290" ry="170" class="orbit-ring faint" transform="rotate(24 300 300)"></ellipse><g class="orbit-spin"><circle cx="545" cy="240" r="6" class="orbit-moon"></circle></g><path d="M300 92 L310 120 L300 112 L290 120 Z" class="orbit-delta"></path></svg><div class="coord-tag" aria-hidden="true">45.62° N / 94.21° W — Sector 001-MN</div><div class="hero-inner"><div class="eyebrow reveal">Independent by design / Sartell, Minnesota</div><h1 class="hero-title display reveal reveal-delay" id="hero-title"><span class="sr-only">graphicwheeler — graphic designer in Sartell, Minnesota.</span><span>Make</span><span class="stroke">your</span><span class="red">mark<span class="stroke">.</span></span></h1><div class="hero-subrow reveal reveal-late"><p class="hero-copy">I’m <strong>graphicwheeler</strong> — graphic designer, gamer, streamer, and proud girl dad. You’ll know me as <strong>Wheelz_TTV</strong> when I’m gaming. Making things with a little more character from Central Minnesota.</p><div class="hero-location"><b>Based in Sartell, MN</b><br/>Made here. For everywhere.</div></div></div><div class="hero-index" aria-hidden="true">DESIGN / PLAY / REPEAT</div><div class="hero-vertical" aria-hidden="true">Scroll to explore</div></section><section class="section work-section" id="work" aria-labelledby="work-heading"><div class="section-inner"><div class="work-intro"><div><div class="section-kicker">Selected series / 001—002</div><h2 class="section-heading display" id="work-heading">Watch the<br/>what-ifs.</h2></div><div class="work-aside"><p>Two video series, two different rabbit holes. Pick a playlist and settle in — both live on YouTube.</p><a class="portfolio-callout" href="https://www.behance.net/graphicwheeler" target="_blank" rel="noopener noreferrer" data-testid="link-design-portfolio">Explore the graphicwheeler portfolio <span aria-hidden="true">↗</span></a></div></div><div class="series-grid"><article class="series-card"><div class="series-top"><h3 class="series-title">What If?</h3><span class="series-number">SERIES / 01</span></div><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/EHadApk6o-Q?rel=0" title="What If? featured video by graphicwheeler" data-testid="video-what-if" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen=""></iframe></div><div class="series-caption"><span>Possibility, put on the table.</span><a href="https://www.youtube.com/playlist?list=PL9jTPSyiIfPTc2CXpsMb2s0_LAmaAwqvZ" target="_blank" rel="noopener noreferrer" aria-label="Open the What If? playlist on YouTube" data-testid="link-what-if-playlist">Watch full playlist ↗</a></div></article><article class="series-card"><div class="series-top"><h3 class="series-title">Lost In Space</h3><span class="series-number">SERIES / 02</span></div><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/1yHQjF21y_Y?rel=0" title="Lost In Space featured video by graphicwheeler" data-testid="video-lost-in-space" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen=""></iframe></div><div class="series-caption"><span>Out there, looking closer.</span><a href="https://www.youtube.com/playlist?list=PL9jTPSyiIfPQdtMoBK7diMYuNYPYCoyGh" target="_blank" rel="noopener noreferrer" aria-label="Open the Lost In Space playlist on YouTube" data-testid="link-lost-in-space-playlist">Watch full playlist ↗</a></div></article></div></div></section><section class="manifesto" id="about" aria-labelledby="about-heading"><div class="manifesto-left"><div class="section-kicker">A little about me / 003</div><h2 class="manifesto-statement" id="about-heading">Good design<br/>gets noticed.<br/><em>Good people</em><br/>make it matter.</h2></div><div class="manifesto-right"><p>I’m graphicwheeler — a lifelong Minnesotan, gamer, Trekkie, husband, and proud dad to two daughters. Based in Sartell, I’m the Head Graphic Designer at<!-- --> <a href="https://djvlabels.com/" target="_blank" rel="noopener" data-testid="link-djv-labels">D.J.V. Label &amp; Packaging</a>, creating label and packaging artwork for flexographic and thermal printing.</p><p>I earned my associate degree in E-commerce and Web Marketing in 2004. Star Trek sparked my love of computers; creating things kept me hooked. Off the clock, it’s gaming as Wheelz_TTV, TV and movies tracked on Trakt, and family time. Streaming is on hiatus for now.</p><div class="dad-note">Proud girl dad. Live long and prosper.</div><div class="warp-lines" aria-hidden="true"><span></span><span></span><span></span><span></span></div></div></section><section class="section signal-section" id="elsewhere" aria-labelledby="elsewhere-heading"><div class="starfield starfield-quiet" aria-hidden="true"></div><div class="section-inner"><div class="signal-heading-row"><div><div class="section-kicker">Follow the thread / 004</div><h2 class="section-heading display" id="elsewhere-heading">Find me<br/>out there.</h2></div><div class="signal-note">One creator, a few corners<br/>of the internet.</div></div><div class="link-list"><a class="link-row" href="https://www.behance.net/graphicwheeler" target="_blank" rel="noopener noreferrer" data-testid="link-profile-01"><span class="link-num">01</span><span class="link-name">Behance</span><span class="link-description">Graphic design portfolio · graphicwheeler</span><span class="link-arrow" aria-hidden="true">↗</span></a><a class="link-row" href="https://www.twitch.tv/wheelz_ttv" target="_blank" rel="noopener noreferrer" data-testid="link-profile-02"><span class="link-num">02</span><span class="link-name">Twitch</span><span class="link-description">Wheelz_TTV · streaming currently on hiatus</span><span class="link-arrow" aria-hidden="true">↗</span></a><a class="link-row" href="https://app.trakt.tv/profile/graphicwheeler" target="_blank" rel="noopener noreferrer" data-testid="link-profile-03"><span class="link-num">03</span><span class="link-name">Trakt</span><span class="link-description">Watchlist &amp; viewing profile · graphicwheeler</span><span class="link-arrow" aria-hidden="true">↗</span></a><a class="link-row" href="https://www.behance.net/graphicwheeler/resume" target="_blank" rel="noopener noreferrer" data-testid="link-profile-04"><span class="link-num">04</span><span class="link-name">Resume</span><span class="link-description">If I remembered to update it…</span><span class="link-arrow" aria-hidden="true">↗</span></a></div><section class="social-contact" id="contact" aria-labelledby="contact-heading"><div class="contact-heading-row"><div><div class="section-kicker">Open comms / Socials + games</div><h3 class="contact-heading display" id="contact-heading">Contact me on socials<br/>or in game.</h3></div><p class="contact-intro">Say hello, talk design,<br/>or find me in a lobby.</p></div><div class="contact-grid"><a class="contact-profile" href="https://www.instagram.com/wheelz_ttv" target="_blank" rel="noopener noreferrer" aria-label="Instagram: @wheelz_ttv (opens in a new tab)" data-testid="link-contact-instagram"><span class="contact-platform">Instagram</span><span class="contact-handle">@wheelz_ttv</span><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-profile" href="https://x.com/graphicwheeler" target="_blank" rel="noopener noreferrer" aria-label="X: @graphicwheeler (opens in a new tab)" data-testid="link-contact-x"><span class="contact-platform">X</span><span class="contact-handle">@graphicwheeler</span><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-profile" href="https://www.behance.net/graphicwheeler" target="_blank" rel="noopener noreferrer" aria-label="Behance: graphicwheeler (opens in a new tab)" data-testid="link-contact-behance"><span class="contact-platform">Behance</span><span class="contact-handle">graphicwheeler</span><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-profile" href="https://www.facebook.com/graphicwheelerDOTcom" target="_blank" rel="noopener noreferrer" aria-label="Facebook: graphicwheelerDOTcom (opens in a new tab)" data-testid="link-contact-facebook"><span class="contact-platform">Facebook</span><span class="contact-handle">graphicwheelerDOTcom</span><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-profile" href="https://www.linkedin.com/in/graphicwheeler/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn: graphicwheeler (opens in a new tab)" data-testid="link-contact-linkedin"><span class="contact-platform">LinkedIn</span><span class="contact-handle">graphicwheeler</span><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-profile" href="https://www.youtube.com/channel/UC6Tos_FjcefCbZhcc0uveiQ" target="_blank" rel="noopener noreferrer" aria-label="YouTube: My channel (opens in a new tab)" data-testid="link-contact-youtube"><span class="contact-platform">YouTube</span><span class="contact-handle">My channel</span><span class="contact-arrow" aria-hidden="true">↗</span></a><a class="contact-profile" href="https://steamcommunity.com/id/wheelzttv/" target="_blank" rel="noopener noreferrer" aria-label="Steam: wheelzttv (opens in a new tab)" data-testid="link-contact-steam"><span class="contact-platform">Steam</span><span class="contact-handle">wheelzttv</span><span class="contact-arrow" aria-hidden="true">↗</span></a><div class="contact-profile contact-xbox" data-testid="contact-xbox"><span class="contact-platform">Xbox</span><span class="contact-handle">WheelzTTV</span><span class="contact-gamertag">Gamertag</span></div></div></section><aside class="tipjar" aria-labelledby="tipjar-heading"><svg class="tipjar-art" viewBox="0 0 120 130" aria-hidden="true" focusable="false"><rect x="38" y="14" width="44" height="10" rx="2" class="tj-lid"></rect><path d="M40 24 h40 v8 c14 6 20 18 20 34 v34 c0 14 -10 22 -24 22 h-32 c-14 0 -24 -8 -24 -22 v-34 c0 -16 6 -28 20 -34 z" class="tj-glass"></path><path d="M22 78 h76 v22 c0 14 -10 22 -24 22 h-28 c-14 0 -24 -8 -24 -22 z" class="tj-fill"></path><circle cx="44" cy="96" r="8" class="tj-coin"></circle><circle cx="66" cy="104" r="7" class="tj-coin"></circle><circle cx="78" cy="90" r="6" class="tj-coin"></circle><rect x="36" y="52" width="48" height="20" rx="2" class="tj-label"></rect><text x="60" y="66" text-anchor="middle" class="tj-label-text">TIPS</text><path d="M32 40 q-4 14 -2 28" class="tj-shine"></path><g class="tj-fly-path"><g class="tj-fly"><ellipse cx="-3" cy="-4" rx="4" ry="2.6" class="tj-wing"></ellipse><ellipse cx="3" cy="-4" rx="4" ry="2.6" class="tj-wing"></ellipse><ellipse cx="0" cy="0" rx="3.6" ry="2.6" class="tj-body"></ellipse><circle cx="3" cy="-0.5" r="1" class="tj-eye"></circle></g></g><path d="M95 18 q6 -4 3 -10 M101 26 q7 -2 7 -8" class="tj-buzz"></path></svg><div class="tipjar-copy"><div class="tipjar-kicker mono">Optional / Completely voluntary</div><h3 class="tipjar-title display" id="tipjar-heading">The tip jar</h3><p>It has exactly one fly in it, and he’s lonely. Toss in a coin to fund coffee, pixels, and one more Star Trek rewatch.</p></div><a class="tipjar-link" href="https://www.paypal.com/paypalme/wheelzttv" target="_blank" rel="noopener noreferrer" aria-label="Leave a tip for graphicwheeler on PayPal (opens in a new tab)" data-testid="link-tip-jar">Tip on PayPal <span aria-hidden="true">↗</span></a></aside></div></section></main><footer class="closing"><div class="closing-inner"><div class="closing-stardate mono" aria-hidden="true">Captain&#x27;s log, supplemental — end of transmission</div><div class="closing-title">Stay curious<span>.</span><br/>Stay human.</div><div class="closing-bottom"><p>graphicwheeler / Wheelz_TTV<br/>Sartell, Minnesota · Worldwide audience</p><a class="back-top" href="#top" data-testid="link-back-top">Back to the top</a></div></div></footer></div></div>
+  </body>
 </html>
